@@ -26,6 +26,7 @@ role:       [Software Developer, Technical Writer]
 location:   Rio de Janeiro, Brazil
 languages:  [Portuguese, English]
 currently:
+  - building SnapKit, a 100% local screen capture tool for docs
   - writing docs for the Total ON ecosystem
   - building small tools that run themselves (GitHub Actions + AI agents)
 approach:   "If it isn't documented, it doesn't exist."
@@ -35,7 +36,7 @@ fun_fact:   I actually read the README. Sometimes I get paid to write it.
 ### `$ ls ./stack`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,tailwind,html,css,nodejs,python&theme=dark&perline=10" alt="Dev stack" />
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,tailwind,html,css,nodejs,python,rust&theme=dark&perline=11" alt="Dev stack" />
 </p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,github,githubactions,cloudflare,vercel,md,vscode&theme=dark" alt="Tools" />
@@ -80,12 +81,12 @@ fun_fact:   I actually read the README. Sometimes I get paid to write it.
       <br/><sub><a href="https://github.com/MichelGSS/portfolio">source</a> · <a href="https://michelgss.github.io/portfolio/">live site</a></sub>
     </td>
     <td width="50%" valign="top">
-      <h4>🎨 <a href="https://github.com/MichelGSS/PixelMinimal">PixelMinimal</a></h4>
-      A minimalist pixel-art editor: adjustable grid, a color per mouse button, and click-and-drag drawing.<br/><br/>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
-      <br/><sub><a href="https://github.com/MichelGSS/PixelMinimal">source</a></sub>
+      <h4>📸 <a href="https://github.com/MichelGSS/snapkit">SnapKit</a></h4>
+      The screen capture tool for people who write documentation: annotate, scrolling capture, OCR, step-by-step guides and screen recording. Free, open source and 100% local.<br/><br/>
+      <img src="https://img.shields.io/badge/Rust-B7410E?style=flat-square&logo=rust&logoColor=white" />
+      <img src="https://img.shields.io/badge/Windows%2010%20%7C%2011-0078D4?style=flat-square&logo=windows&logoColor=white" />
+      <img src="https://img.shields.io/github/v/release/MichelGSS/snapkit?style=flat-square&color=FF8A4C&label=release" />
+      <br/><sub><a href="https://github.com/MichelGSS/snapkit">source</a> · <a href="https://github.com/MichelGSS/snapkit/releases/latest">download</a></sub>
     </td>
   </tr>
 </table>
