@@ -15,43 +15,60 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - name: 📊 Overview & Isometric Calendar (lowlighter/metrics)
+      - name: 📊 Overview & 3D Isometric Calendar (lowlighter/metrics)
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.overview.svg
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: America/Sao_Paulo
-          base: header, activity, community, repositories, metadata
+          base: header, repositories
+          base_hireable: yes
+          repositories_skipped: MichelGSS/luna-nera
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           plugin_lines: yes
+          plugin_lines_sections: base
           extras_css: |
             svg {
               background: #0C0C12 !important;
-              border: 1px solid #242432 !important;
+              border: 1.5px solid #262636 !important;
               border-radius: 16px !important;
-              color: #A1A1AA !important;
+              color: #D4D4D8 !important;
+            }
+            .items-wrapper {
+              padding: 6px 10px 10px 10px !important;
+              box-sizing: border-box !important;
             }
             h1, h2, h3 {
               color: #10B981 !important;
               font-weight: 700 !important;
             }
-            h1 svg, h2 svg, h3 svg, .field svg {
+            h1 svg, h2 svg, h3 svg, .field > svg {
               fill: #10B981 !important;
             }
-            b, strong {
+            b, strong, h1 span {
               color: #FAFAFA !important;
             }
-            :root {
-              --color-calendar-graph-day-bg: #161622 !important;
-              --color-calendar-graph-day-border: rgba(255, 255, 255, 0.05) !important;
-              --color-calendar-graph-day-L1-bg: #064E3B !important;
-              --color-calendar-graph-day-L2-bg: #047857 !important;
-              --color-calendar-graph-day-L3-bg: #10B981 !important;
-              --color-calendar-graph-day-L4-bg: #34D399 !important;
+            footer {
+              display: none !important;
+            }
+            [fill="#ebedf0"], [fill="#EBEDF0"] {
+              fill: #161622 !important;
+            }
+            [fill="#9be9a8"], [fill="#9BE9A8"] {
+              fill: #065F46 !important;
+            }
+            [fill="#40c463"], [fill="#40C463"] {
+              fill: #059669 !important;
+            }
+            [fill="#30a14e"], [fill="#30A14E"] {
+              fill: #10B981 !important;
+            }
+            [fill="#216e39"], [fill="#216E39"] {
+              fill: #34D399 !important;
             }
 
-      - name: 💻 In-Depth Languages, Diff Stats & Calendar (lowlighter/metrics)
+      - name: 💻 Languages Breakdown, Diff Volume & Calendar (lowlighter/metrics)
         if: ${{ always() }}
         uses: lowlighter/metrics@latest
         with:
@@ -59,14 +76,13 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: America/Sao_Paulo
           base: ""
+          repositories_skipped: MichelGSS/luna-nera
+          config_order: languages, lines, calendar
           plugin_languages: yes
           plugin_languages_ignored: html, css
-          plugin_languages_indepth: yes
-          plugin_languages_details: lines, bytes-size, percentage
+          plugin_languages_details: bytes-size, percentage
           plugin_languages_sections: most-used
           plugin_languages_limit: 8
-          plugin_followup: yes
-          plugin_followup_sections: repositories, user
           plugin_lines: yes
           plugin_lines_sections: repositories
           plugin_lines_repositories_limit: 4
@@ -75,25 +91,53 @@ jobs:
           extras_css: |
             svg {
               background: #0C0C12 !important;
-              border: 1px solid #242432 !important;
+              border: 1.5px solid #262636 !important;
               border-radius: 16px !important;
-              color: #A1A1AA !important;
+              color: #D4D4D8 !important;
+            }
+            .items-wrapper {
+              padding: 6px 10px 10px 10px !important;
+              box-sizing: border-box !important;
             }
             h1, h2, h3 {
               color: #10B981 !important;
               font-weight: 700 !important;
             }
-            h1 svg, h2 svg, h3 svg, .field svg {
+            h1 svg, h2 svg, h3 svg, .field > svg {
               fill: #10B981 !important;
             }
             b, strong {
               color: #FAFAFA !important;
             }
-            :root {
-              --color-calendar-graph-day-bg: #161622 !important;
-              --color-calendar-graph-day-border: rgba(255, 255, 255, 0.05) !important;
-              --color-calendar-graph-day-L1-bg: #064E3B !important;
-              --color-calendar-graph-day-L2-bg: #047857 !important;
-              --color-calendar-graph-day-L3-bg: #10B981 !important;
-              --color-calendar-graph-day-L4-bg: #34D399 !important;
+            .field.language.details small {
+              color: #A1A1AA !important;
+            }
+            .diff-handle {
+              color: #FAFAFA !important;
+              font-weight: 600 !important;
+            }
+            .added {
+              color: #34D399 !important;
+            }
+            .diff-box.added {
+              background-color: #10B981 !important;
+            }
+            svg.calendar text {
+              fill: #FAFAFA !important;
+              font-weight: 700 !important;
+            }
+            [fill="#ebedf0"], [fill="#EBEDF0"] {
+              fill: #161622 !important;
+            }
+            [fill="#9be9a8"], [fill="#9BE9A8"] {
+              fill: #065F46 !important;
+            }
+            [fill="#40c463"], [fill="#40C463"] {
+              fill: #059669 !important;
+            }
+            [fill="#30a14e"], [fill="#30A14E"] {
+              fill: #10B981 !important;
+            }
+            [fill="#216e39"], [fill="#216E39"] {
+              fill: #34D399 !important;
             }

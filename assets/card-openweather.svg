@@ -1,54 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 280" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 284" width="580" height="284">
   <defs>
     <linearGradient id="cBg3" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0C0C12" />
-      <stop offset="100%" stop-color="#07070A" />
+      <stop offset="0%" stop-color="#0D0D14" />
+      <stop offset="100%" stop-color="#07070B" />
     </linearGradient>
     <style>
       .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
       .sans { font-family: 'Space Grotesk', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
     </style>
   </defs>
-  <rect width="580" height="280" rx="16" fill="url(#cBg3)" stroke="#242432" stroke-width="1.5" />
+  <rect width="580" height="284" rx="16" fill="url(#cBg3)" stroke="#262636" stroke-width="1.5" />
   <rect x="1" y="1" width="578" height="4" rx="2" fill="#38BDF8" />
 
   <!-- Top Badge & Metric -->
   <g transform="translate(22, 22)">
-    <rect width="234" height="22" rx="6" fill="#38BDF8" fill-opacity="0.12" stroke="#38BDF8" stroke-opacity="0.4" />
-    <circle cx="12" cy="11" r="3.5" fill="#38BDF8" />
-    <text x="22" y="15" class="mono" font-size="9.5" font-weight="700" fill="#38BDF8" letter-spacing="0.8">DOCS-AS-CODE // REST API PORTAL</text>
-    <rect x="404" y="0" width="132" height="22" rx="6" fill="#14141E" stroke="#2A2A3A" />
-    <text x="470" y="15" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" fill="#38BDF8">4 DIÁTAXIS MODES</text>
+    <rect width="238" height="23" rx="6" fill="#38BDF8" fill-opacity="0.14" stroke="#38BDF8" stroke-opacity="0.45" />
+    <circle cx="12" cy="11.5" r="3.5" fill="#38BDF8" />
+    <text x="22" y="15.5" class="mono" font-size="9.8" font-weight="700" fill="#38BDF8" letter-spacing="0.8">DOCS-AS-CODE // REST API PORTAL</text>
+    <rect x="402" y="0" width="134" height="23" rx="6" fill="#141420" stroke="#2C2C3E" />
+    <text x="469" y="15.5" text-anchor="middle" class="mono" font-size="9.8" font-weight="700" fill="#38BDF8">4 DIÁTAXIS MODES</text>
   </g>
 
   <!-- Title & Description -->
-  <text x="22" y="68" class="sans" font-size="17" font-weight="700" fill="#FAFAFA">OpenWeatherMap REST API Documentation</text>
-  <text x="22" y="90" class="sans" font-size="11.5" fill="#A1A1AA">Developer-focused REST API documentation portal built with Docusaurus 3.</text>
-  <text x="22" y="106" class="sans" font-size="11.5" fill="#A1A1AA">Includes Postman-verified endpoint schemas, authentication guides, status</text>
-  <text x="22" y="122" class="sans" font-size="11.5" fill="#A1A1AA">error references &amp; multi-language code samples structured with Diátaxis.</text>
+  <text x="22" y="68" class="sans" font-size="17.5" font-weight="700" fill="#FAFAFA">OpenWeatherMap REST API Documentation</text>
+  <text x="22" y="90" class="sans" font-size="11.8" fill="#D4D4D8">Developer-focused REST API documentation portal built with Docusaurus 3.</text>
+  <text x="22" y="106.5" class="sans" font-size="11.8" fill="#D4D4D8">Includes Postman-verified endpoint schemas, authentication guides, status</text>
+  <text x="22" y="123" class="sans" font-size="11.8" fill="#D4D4D8">error references &amp; multi-language code samples structured with Diátaxis.</text>
 
   <!-- Code / Terminal Preview Box -->
-  <g transform="translate(22, 136)">
-    <rect width="536" height="92" rx="10" fill="#060609" stroke="#1E1E2A" />
-    <text x="14" y="20" class="mono" font-size="10" fill="#38BDF8">GET <tspan fill="#FAFAFA">/data/2.5/weather?lat=-22.90&amp;lon=-43.20&amp;units=metric</tspan></text>
-    <text x="14" y="38" class="mono" font-size="10" fill="#71717A">// HTTP/1.1 200 OK — Verified against live production endpoint</text>
-    <text x="14" y="55" class="mono" font-size="10" fill="#A1A1AA">{ "name": <tspan fill="#34D399">"Rio de Janeiro"</tspan>, "weather": [{ "main": <tspan fill="#34D399">"Clear"</tspan> }],</text>
-    <text x="14" y="72" class="mono" font-size="10" fill="#A1A1AA">  "main": { "temp": <tspan fill="#38BDF8">27.4</tspan>, "humidity": <tspan fill="#38BDF8">68</tspan> }, "cod": <tspan fill="#10B981">200</tspan> }</text>
+  <g transform="translate(22, 138)">
+    <rect width="536" height="92" rx="10" fill="#060609" stroke="#222230" />
+    <text x="14" y="21" class="mono" font-size="10.4" font-weight="600" fill="#38BDF8">GET <tspan fill="#FAFAFA">/data/2.5/weather?lat=-22.90&amp;lon=-43.20&amp;units=metric</tspan></text>
+    <text x="14" y="39" class="mono" font-size="10.3" fill="#A1A1AA">// HTTP/1.1 200 OK — Verified against live production endpoint (38ms)</text>
+    <text x="14" y="56.5" class="mono" font-size="10.3" fill="#D4D4D8">{ "name": <tspan fill="#34D399">"Rio de Janeiro"</tspan>, "weather": [{ "main": <tspan fill="#34D399">"Clear"</tspan> }],</text>
+    <text x="14" y="74" class="mono" font-size="10.3" fill="#D4D4D8">  "main": { "temp": <tspan fill="#38BDF8">27.4</tspan>, "humidity": <tspan fill="#38BDF8">68</tspan> }, "cod": <tspan fill="#10B981" font-weight="700">200</tspan> }</text>
   </g>
 
   <!-- Tech Stack Pills -->
-  <g transform="translate(22, 242)" class="mono" font-size="9.5" fill="#D4D4D8">
-    <rect x="0" y="0" width="96" height="22" rx="6" fill="#14141D" stroke="#272736" />
-    <text x="48" y="15" text-anchor="middle">Docusaurus 3</text>
-    <rect x="104" y="0" width="90" height="22" rx="6" fill="#14141D" stroke="#272736" />
-    <text x="149" y="15" text-anchor="middle">OpenAPI / REST</text>
-    <rect x="202" y="0" width="68" height="22" rx="6" fill="#14141D" stroke="#272736" />
-    <text x="236" y="15" text-anchor="middle">Diátaxis</text>
-    <rect x="278" y="0" width="80" height="22" rx="6" fill="#14141D" stroke="#272736" />
-    <text x="318" y="15" text-anchor="middle">TypeScript</text>
-    <rect x="366" y="0" width="74" height="22" rx="6" fill="#14141D" stroke="#272736" />
-    <text x="403" y="15" text-anchor="middle">Postman</text>
-    <rect x="448" y="0" width="88" height="22" rx="6" fill="#14141D" stroke="#272736" />
-    <text x="492" y="15" text-anchor="middle" fill="#38BDF8">GitHub Pages</text>
+  <g transform="translate(22, 245)" class="mono" font-size="9.8" fill="#E4E4E7">
+    <rect x="0" y="0" width="96" height="23" rx="6" fill="#14141F" stroke="#2A2A3A" />
+    <text x="48" y="15.5" text-anchor="middle">Docusaurus 3</text>
+    <rect x="104" y="0" width="90" height="23" rx="6" fill="#14141F" stroke="#2A2A3A" />
+    <text x="149" y="15.5" text-anchor="middle">OpenAPI / REST</text>
+    <rect x="202" y="0" width="68" height="23" rx="6" fill="#14141F" stroke="#2A2A3A" />
+    <text x="236" y="15.5" text-anchor="middle">Diátaxis</text>
+    <rect x="278" y="0" width="80" height="23" rx="6" fill="#14141F" stroke="#2A2A3A" />
+    <text x="318" y="15.5" text-anchor="middle">TypeScript</text>
+    <rect x="366" y="0" width="74" height="23" rx="6" fill="#14141F" stroke="#2A2A3A" />
+    <text x="403" y="15.5" text-anchor="middle">Postman</text>
+    <rect x="448" y="0" width="88" height="23" rx="6" fill="#14141F" stroke="#2A2A3A" />
+    <text x="492" y="15.5" text-anchor="middle" fill="#38BDF8" font-weight="600">GitHub Pages</text>
   </g>
 </svg>
