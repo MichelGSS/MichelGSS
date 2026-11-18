@@ -1,111 +1,222 @@
-<!-- Header -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:2ea043&height=200&section=header&text=Michel%20Silveira&fontColor=ffffff&fontSize=50&fontAlignY=38&desc=Software%20Developer%20%C2%B7%20Technical%20Writer&descAlignY=58&descSize=18" alt="Michel Silveira" width="100%" />
-</p>
+<!-- MICHEL.DEV // DX-STUDIO GITHUB PROFILE MONOLITH -->
 
-<p align="center">
+<div align="center">
+
+  <!-- HERO MONOLITH HUD (Matches https://michelgss.github.io/portfolio/) -->
   <a href="https://michelgss.github.io/portfolio/">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1200&color=3FB950&center=true&vCenter=true&width=620&lines=%24+whoami;I+build+software+and+document+it;Open-source+addict+who+reads+the+README;Docs-as-code+%7C+React+%7C+Docusaurus;Based+in+Rio+de+Janeiro%2C+Brazil" alt="Typing intro" />
+    <img src="./assets/hero-monolith.svg" alt="Michel Silveira — Full Stack Developer & Documentation Engineer (DX)" width="100%" />
   </a>
-</p>
 
-<p align="center">
-  <a href="https://michelgss.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=githubpages&logoColor=3FB950" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/michelthedev"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:michelfixingit@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>
-  <img src="https://komarev.com/ghpvc/?username=MichelGSS&label=profile%20views&color=2ea043&style=for-the-badge" alt="Profile views" />
-</p>
+  <br/>
+
+  <!-- ANIMATED TERMINAL TYPING LINE -->
+  <a href="https://michelgss.github.io/portfolio/">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=3200&pause=1000&color=10B981&center=true&vCenter=true&width=820&height=32&lines=MICHEL.DEV+%2F%2F+FULL+STACK+DEVELOPER+%26+DOCUMENTATION+ENGINEER+(DX);JavaScript+%C2%B7+TypeScript+%C2%B7+Python+%C2%B7+Rust+%C2%B7+React+18+%C2%B7+Node.js+%C2%B7+MongoDB+%C2%B7+SQL;Docusaurus+3+(MDX)+%C2%B7+Di%C3%A1taxis+Architecture+%C2%B7+OpenAPI+3.1+%C2%B7+Automated+Style+Linters;Creator+of+SnapKit+(Native+Rust)+%26+Enterprise+Help+Centers+Scoring+100+on+Lighthouse" alt="Terminal Typing Intro" />
+  </a>
+
+  <!-- QUICK ACTION & SOCIAL PROOF BAR -->
+  <p align="center">
+    <a href="https://michelgss.github.io/portfolio/">
+      <img src="https://img.shields.io/badge/DX_STUDIO_PORTFOLIO-10B981?style=for-the-badge&logo=vercel&logoColor=060608&labelColor=10B981" alt="Portfolio" />
+    </a>
+    <a href="https://docs.totalcontrol.com.br/">
+      <img src="https://img.shields.io/badge/TOTAL_CONTROL_DOCS-0D0D12?style=for-the-badge&logo=docusaurus&logoColor=10B981&labelColor=0D0D12" alt="Total Control Docs" />
+    </a>
+    <a href="https://github.com/MichelGSS/snapkit/releases/latest">
+      <img src="https://img.shields.io/badge/SNAPKIT_(RUST)-0D0D12?style=for-the-badge&logo=rust&logoColor=F97316&labelColor=0D0D12" alt="SnapKit" />
+    </a>
+    <a href="https://michelgss.github.io/portfolio/resume.pdf">
+      <img src="https://img.shields.io/badge/RESUME_%2F_CV-0D0D12?style=for-the-badge&logo=read-the-docs&logoColor=38BDF8&labelColor=0D0D12" alt="Resume EN" />
+    </a>
+    <a href="https://www.linkedin.com/in/michelthedev">
+      <img src="https://img.shields.io/badge/LINKEDIN-0D0D12?style=for-the-badge&logo=linkedin&logoColor=38BDF8&labelColor=0D0D12" alt="LinkedIn" />
+    </a>
+    <a href="mailto:michelfixingit@gmail.com">
+      <img src="https://img.shields.io/badge/CONTACT-0D0D12?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0D0D12" alt="Email" />
+    </a>
+    <img src="https://komarev.com/ghpvc/?username=MichelGSS&label=TELEMETRY%20VIEWS&color=10B981&style=for-the-badge&labelColor=0D0D12" alt="Profile Views" />
+  </p>
+
+</div>
 
 ---
 
-### `$ cat about.md`
+### `01 // MANIFESTO & ARCHITECTURE`
+
+<p align="center">
+  <a href="https://michelgss.github.io/portfolio/#about">
+    <img src="./assets/diataxis-pipeline.svg" alt="Diátaxis 4-Quadrant Architecture & Automated Docs-as-Code Pipeline" width="100%" />
+  </a>
+</p>
 
 ```yaml
-name:       Michel Silveira
-role:       [Software Developer, Technical Writer]
-location:   Rio de Janeiro, Brazil
-languages:  [Portuguese, English]
-currently:
-  - building SnapKit, a 100% local screen capture tool for docs
-  - writing docs for the Total ON ecosystem
-  - building small tools that run themselves (GitHub Actions + AI agents)
-approach:   "If it isn't documented, it doesn't exist."
-fun_fact:   I actually read the README. Sometimes I get paid to write it.
+kernel:      "MICHEL.DEV // DX-STUDIO v2.6.0"
+identity:    "Michel Silveira — Full Stack Developer & Documentation Engineer (DX)"
+base:        "Rio de Janeiro, Brazil (UTC-3) · Remote Worldwide"
+languages:   ["Portuguese (Native)", "English (C1 Advanced — EF SET 68/100)"]
+current_ops:
+  - role:    "Documentation Engineer @ Total Control Technology"
+    scope:   "Docusaurus 3.10 ERP Help Center (docs.totalcontrol.com.br), Diátaxis, MS Style Guide, CLI Linter, Lighthouse 100"
+  - role:    "Technical Writer & Full Stack Developer @ AWRIT"
+    scope:   "JavaScript, MongoDB, Tailwind CSS, REST APIs, AWS, SQL verification & Docs-as-Code"
+  - project: "Creator of SnapKit (Open-Source Native Rust Desktop App)"
+    scope:   "100% local screen capture, 19 annotation tools, scrolling capture, step-by-step guide recorder & ONNX/PaddleOCR"
+education:   "Technologist Degree in Internet Systems — Centro Universitário IBMR (MEC Recognized)"
+philosophy:  "Read the source, run the endpoints, automate the style linter, and ship docs that match how the software truly behaves."
 ```
 
-### `$ ls ./stack`
+---
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,tailwind,html,css,nodejs,python,rust&theme=dark&perline=11" alt="Dev stack" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,githubactions,cloudflare,vercel,md,vscode&theme=dark" alt="Tools" />
-</p>
+### `02 // CAPABILITY MATRIX & TOOLCHAIN`
 
-<p align="center">
-  <b>Docs toolbox</b><br/><br/>
-  <img src="https://img.shields.io/badge/Docusaurus-3ECC5F?style=flat-square&logo=docusaurus&logoColor=white" alt="Docusaurus" />
-  <img src="https://img.shields.io/badge/Markdown%20%2F%20MDX-0d1117?style=flat-square&logo=markdown&logoColor=white" alt="Markdown / MDX" />
-  <img src="https://img.shields.io/badge/Di%C3%A1taxis-framework-2ea043?style=flat-square" alt="Diátaxis" />
-  <img src="https://img.shields.io/badge/REST%20API-reference-6E40C9?style=flat-square&logo=postman&logoColor=white" alt="REST API docs" />
-  <img src="https://img.shields.io/badge/Docs--as--code-GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white" alt="Docs-as-code" />
-</p>
+<div align="center">
 
-### `$ ls ./projects --featured`
+  <p>
+    <img src="https://skillicons.dev/icons?i=js,ts,python,rust,react,nextjs,nodejs,express,mongodb,postgres,tailwind,vite,aws,git,github,githubactions&theme=dark&perline=8" alt="Engineering & Cloud Stack" />
+  </p>
 
-<table>
+  <p>
+    <img src="https://img.shields.io/badge/Docusaurus_3_(MDX)-0D0D12?style=flat-square&logo=docusaurus&logoColor=10B981" alt="Docusaurus 3" />
+    <img src="https://img.shields.io/badge/Di%C3%A1taxis_Framework-0D0D12?style=flat-square&logo=bookstack&logoColor=34D399" alt="Diátaxis" />
+    <img src="https://img.shields.io/badge/Microsoft_Style_Guide-0D0D12?style=flat-square&logo=microsoft&logoColor=38BDF8" alt="Microsoft Writing Style Guide" />
+    <img src="https://img.shields.io/badge/OpenAPI_3.1_%2F_Swagger-0D0D12?style=flat-square&logo=openapiinitiative&logoColor=10B981" alt="OpenAPI 3.1" />
+    <img src="https://img.shields.io/badge/Redocly-0D0D12?style=flat-square&logo=redocly&logoColor=F97316" alt="Redocly" />
+    <img src="https://img.shields.io/badge/Mermaid.js_Diagrams-0D0D12?style=flat-square&logo=mermaid&logoColor=FF3670" alt="Mermaid.js" />
+    <img src="https://img.shields.io/badge/Postman_API_Testing-0D0D12?style=flat-square&logo=postman&logoColor=FF6C37" alt="Postman" />
+    <img src="https://img.shields.io/badge/Lighthouse_100_A11y_%26_SEO-0D0D12?style=flat-square&logo=lighthouse&logoColor=10B981" alt="Lighthouse 100" />
+    <img src="https://img.shields.io/badge/WCAG_%2F_WAI--ARIA-0D0D12?style=flat-square&logo=w3c&logoColor=38BDF8" alt="W3C Accessibility" />
+  </p>
+
+</div>
+
+---
+
+### `03 // SELECTED WORKS & PRODUCTION CASE STUDIES`
+
+<table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4>📘 <a href="https://michelgss.github.io/openweather-docs/">OpenWeatherMap API Docs</a></h4>
-      Developer-focused docs for the OpenWeatherMap REST API, organized with the Diátaxis framework: tutorials, how-to guides, reference and explanation.<br/><br/>
-      <img src="https://img.shields.io/badge/Docusaurus%203-3ECC5F?style=flat-square&logo=docusaurus&logoColor=white" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-      <br/><sub><a href="https://github.com/MichelGSS/openweather-docs">source</a> · <a href="https://michelgss.github.io/openweather-docs/">live site</a></sub>
+      <a href="https://docs.totalcontrol.com.br/">
+        <img src="./assets/card-totalcontrol.svg" alt="Total Control Technology — Help Center & ERP Docs" width="100%" />
+      </a>
+      <p align="center">
+        <sub>
+          <a href="https://docs.totalcontrol.com.br/"><b>🚀 Live Production Portal (docs.totalcontrol.com.br)</b></a>
+          &nbsp;·&nbsp;
+          <a href="https://michelgss.github.io/portfolio/#samples"><b>🔍 Case Study on Portfolio</b></a>
+        </sub>
+      </p>
     </td>
     <td width="50%" valign="top">
-      <h4>🗞️ <a href="https://github.com/MichelGSS/hermes-briefing-diario">Briefing Diário</a></h4>
-      A daily politics &amp; crypto briefing written by an open-source AI agent and emailed every morning by GitHub Actions. Runs on its own, costs R$ 0.<br/><br/>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
-      <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white" />
-      <br/><sub><a href="https://github.com/MichelGSS/hermes-briefing-diario">source</a></sub>
+      <a href="https://github.com/MichelGSS/snapkit">
+        <img src="./assets/card-snapkit.svg" alt="SnapKit — Native Rust Screen Capture & OCR" width="100%" />
+      </a>
+      <p align="center">
+        <sub>
+          <a href="https://github.com/MichelGSS/snapkit"><b>📂 Source Architecture (Rust)</b></a>
+          &nbsp;·&nbsp;
+          <a href="https://github.com/MichelGSS/snapkit/releases/latest"><b>📦 Download Windows Installer</b></a>
+        </sub>
+      </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>💼 <a href="https://michelgss.github.io/portfolio/">Portfolio</a></h4>
-      My personal site: dark, terminal-inspired, editorial typography, in English and Portuguese.<br/><br/>
-      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-      <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
-      <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-      <br/><sub><a href="https://github.com/MichelGSS/portfolio">source</a> · <a href="https://michelgss.github.io/portfolio/">live site</a></sub>
+      <a href="https://michelgss.github.io/openweather-docs/">
+        <img src="./assets/card-openweather.svg" alt="OpenWeatherMap REST API Documentation Portal" width="100%" />
+      </a>
+      <p align="center">
+        <sub>
+          <a href="https://michelgss.github.io/openweather-docs/"><b>🚀 Live API Docs Portal</b></a>
+          &nbsp;·&nbsp;
+          <a href="https://github.com/MichelGSS/openweather-docs"><b>📂 Source Repository</b></a>
+        </sub>
+      </p>
     </td>
     <td width="50%" valign="top">
-      <h4>📸 <a href="https://github.com/MichelGSS/snapkit">SnapKit</a></h4>
-      The screen capture tool for people who write documentation: annotate, scrolling capture, OCR, step-by-step guides and screen recording. Free, open source and 100% local.<br/><br/>
-      <img src="https://img.shields.io/badge/Rust-B7410E?style=flat-square&logo=rust&logoColor=white" />
-      <img src="https://img.shields.io/badge/Windows%2010%20%7C%2011-0078D4?style=flat-square&logo=windows&logoColor=white" />
-      <img src="https://img.shields.io/github/v/release/MichelGSS/snapkit?style=flat-square&color=FF8A4C&label=release" />
-      <br/><sub><a href="https://github.com/MichelGSS/snapkit">source</a> · <a href="https://github.com/MichelGSS/snapkit/releases/latest">download</a></sub>
+      <a href="https://michelgss.github.io/portfolio/">
+        <img src="./assets/card-portfolio.svg" alt="MICHEL.DEV — Interactive Portfolio & DX Studio" width="100%" />
+      </a>
+      <p align="center">
+        <sub>
+          <a href="https://michelgss.github.io/portfolio/"><b>🚀 Launch Interactive DX Studio</b></a>
+          &nbsp;·&nbsp;
+          <a href="https://github.com/MichelGSS/portfolio"><b>📂 Source Repository</b></a>
+        </sub>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/MichelGSS/hermes-briefing-diario">
+        <img src="./assets/card-hermes.svg" alt="Briefing Diário — Autonomous AI Agent Pipeline" width="100%" />
+      </a>
+      <p align="center">
+        <sub>
+          <a href="https://github.com/MichelGSS/hermes-briefing-diario"><b>📂 Inspect Autonomous Agent &amp; Cron Workflow</b></a>
+        </sub>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://michelgss.github.io/portfolio/#certifications">
+        <img src="./assets/card-credentials.svg" alt="Career Chronicle & Verified Credentials" width="100%" />
+      </a>
+      <p align="center">
+        <sub>
+          <a href="https://michelgss.github.io/portfolio/#experience"><b>💼 Full Career Timeline</b></a>
+          &nbsp;·&nbsp;
+          <a href="https://michelgss.github.io/portfolio/#certifications"><b>🎓 Verify MEC Diploma &amp; 12 Certifications</b></a>
+        </sub>
+      </p>
     </td>
   </tr>
 </table>
 
-### `$ git log --stats`
+---
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=MichelGSS&theme=github-dark-blue&hide_border=true&background=0d1117&ring=2ea043&fire=3FB950&currStreakLabel=3FB950" alt="GitHub streak" />
-</p>
+### `04 // LIVE ENGINEERING TELEMETRY (LOWLIGHTER/METRICS)`
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MichelGSS/MichelGSS/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MichelGSS/MichelGSS/output/github-snake.svg" />
-    <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/MichelGSS/MichelGSS/output/github-snake-dark.svg" />
-  </picture>
-</p>
+<div align="center">
 
-<!-- Footer -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2ea043,100:0d1117&height=110&section=footer" width="100%" alt="" />
-</p>
+  <!-- LOWLIGHTER/METRICS DUAL TELEMETRY DASHBOARD -->
+  <p align="center">
+    <img src="./metrics.overview.svg" width="49%" alt="GitHub Metrics Overview & Isometric Calendar" />
+    <img src="./metrics.languages.svg" width="49%" alt="GitHub Languages, Coding Habits & Achievements" />
+  </p>
+
+  <!-- CONTRIBUTION GRAPH SNAKE -->
+  <p align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MichelGSS/MichelGSS/output/github-snake-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MichelGSS/MichelGSS/output/github-snake.svg" />
+      <img alt="Contribution Graph Snake" src="https://raw.githubusercontent.com/MichelGSS/MichelGSS/output/github-snake-dark.svg" width="100%" />
+    </picture>
+  </p>
+
+</div>
+
+---
+
+### `05 // INITIATE TRANSMISSION`
+
+<div align="center">
+
+  <a href="https://michelgss.github.io/portfolio/#contact">
+    <img src="./assets/footer-monolith.svg" alt="Initiate Transmission — Michel Silveira" width="100%" />
+  </a>
+
+  <br/><br/>
+
+  <p align="center">
+    <a href="https://michelgss.github.io/portfolio/"><b>🌐 Portfolio (EN/PT)</b></a>
+    &nbsp;·&nbsp;
+    <a href="https://michelgss.github.io/portfolio/resume.pdf"><b>📄 Resume (EN)</b></a>
+    &nbsp;·&nbsp;
+    <a href="https://michelgss.github.io/portfolio/resume-pt.pdf"><b>📄 Currículo (PT-BR)</b></a>
+    &nbsp;·&nbsp;
+    <a href="https://www.linkedin.com/in/michelthedev"><b>💼 LinkedIn (/in/michelthedev)</b></a>
+    &nbsp;·&nbsp;
+    <a href="mailto:michelfixingit@gmail.com"><b>✉️ michelfixingit@gmail.com</b></a>
+  </p>
+
+</div>
