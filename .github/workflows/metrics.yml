@@ -29,14 +29,20 @@ jobs:
           plugin_lines: yes
           plugin_lines_sections: base
           extras_css: |
-            svg {
+            svg:root {
               background: #0C0C12 !important;
               border: 1.5px solid #262636 !important;
               border-radius: 16px !important;
               color: #D4D4D8 !important;
             }
+            foreignObject svg {
+              background: transparent !important;
+              border: none !important;
+              border-radius: 0 !important;
+              overflow: visible !important;
+            }
             .items-wrapper {
-              padding: 6px 10px 10px 10px !important;
+              padding: 8px 12px 14px 12px !important;
               box-sizing: border-box !important;
             }
             h1, h2, h3 {
@@ -89,14 +95,20 @@ jobs:
           plugin_calendar: yes
           plugin_calendar_limit: 2
           extras_css: |
-            svg {
+            svg:root {
               background: #0C0C12 !important;
               border: 1.5px solid #262636 !important;
               border-radius: 16px !important;
               color: #D4D4D8 !important;
             }
+            foreignObject svg {
+              background: transparent !important;
+              border: none !important;
+              border-radius: 0 !important;
+              overflow: visible !important;
+            }
             .items-wrapper {
-              padding: 6px 10px 10px 10px !important;
+              padding: 8px 12px 14px 12px !important;
               box-sizing: border-box !important;
             }
             h1, h2, h3 {
@@ -121,6 +133,9 @@ jobs:
             }
             .diff-box.added {
               background-color: #10B981 !important;
+            }
+            svg.calendar {
+              margin-left: 16px !important;
             }
             svg.calendar text {
               fill: #FAFAFA !important;
