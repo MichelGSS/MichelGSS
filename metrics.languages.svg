@@ -81,12 +81,12 @@ svg.calendar text {
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="322.4215217358296" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="322.4215217358296" y="0" width="96.91123460726705" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="419.3327563430966" y="0" width="30.88912677082859" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="450.22188311392523" y="0" width="4.927648461106303" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="455.1495315750315" y="0" width="3.78321869448367" height="8" fill="#012456"/>
-                    <rect mask="url(#languages-bar)" x="458.93275026951517" y="0" width="1.0672497304848236" height="8" fill="#264b99"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="332.92540200006033" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="332.92540200006033" y="0" width="89.51222847333592" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="422.4376304733962" y="0" width="28.53079505237168" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="450.96842552576794" y="0" width="4.551430973656733" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="455.51985649942463" y="0" width="3.4943764519931535" height="8" fill="#012456"/>
+                    <rect mask="url(#languages-bar)" x="459.0142329514178" y="0" width="0.9857670485822095" height="8" fill="#264b99"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -98,8 +98,8 @@ svg.calendar text {
                                 Rust
                             </div>
                             <small>
-                                <div>923 kB</div>
-                                <div>70.09%</div>
+                                <div>1.03 MB</div>
+                                <div>72.38%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -111,7 +111,7 @@ svg.calendar text {
                             </div>
                             <small>
                                 <div>88.4 kB</div>
-                                <div>6.72%</div>
+                                <div>6.2%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -123,7 +123,7 @@ svg.calendar text {
                             </div>
                             <small>
                                 <div>10.8 kB</div>
-                                <div>0.82%</div>
+                                <div>0.76%</div>
                             </small>
                         </div>
                     </section>
@@ -137,7 +137,7 @@ svg.calendar text {
                             </div>
                             <small>
                                 <div>277 kB</div>
-                                <div>21.07%</div>
+                                <div>19.46%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -149,7 +149,7 @@ svg.calendar text {
                             </div>
                             <small>
                                 <div>14.1 kB</div>
-                                <div>1.07%</div>
+                                <div>0.99%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -161,7 +161,7 @@ svg.calendar text {
                             </div>
                             <small>
                                 <div>3.06 kB</div>
-                                <div>0.23%</div>
+                                <div>0.21%</div>
                             </small>
                         </div>
                     </section>
@@ -221,8 +221,8 @@ svg.calendar text {
                             <div class="diff-box added"></div>
                             <div class="diff-box deleted"></div>
                             <div class="diff-stats">
-                                <span class="added">   +58k</span>
-                                <span class="deleted"> -2.17k</span>
+                                <span class="added">   +62k</span>
+                                <span class="deleted"> -3.17k</span>
                             </div>
                             <span> </span>
                         </div>
@@ -680,6 +680,7 @@ svg.calendar text {
                                     <rect class="day" x="0" y="19" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                     <rect class="day" x="0" y="34" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                     <rect class="day" x="0" y="49" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
                                 </g>
                             </g>
                             <g transform="translate(0, 144)">
